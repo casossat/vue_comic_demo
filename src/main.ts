@@ -7,7 +7,7 @@ import VueAxios from "vue-axios";
 import "./registerServiceWorker";
 import VueSweetalert2 from "vue-sweetalert2";
 import "sweetalert2/dist/sweetalert2.min.css";
-import VuePageTransition from "vue-page-transition";
+// import VuePageTransition from "vue-page-transition";
 
 import {
   Button,
@@ -33,10 +33,11 @@ import {
   List,
   Avatar,
   Popover,
-  Badge
+  Badge,
+  InputNumber
 } from "ant-design-vue";
 
-Vue.use(VuePageTransition);
+// Vue.use(VuePageTransition);
 Vue.use(VueAxios, axios);
 Vue.use(VueSweetalert2);
 
@@ -70,6 +71,7 @@ Vue.component(Card.Meta.name, Card.Meta);
 Vue.component(Breadcrumb.name, Breadcrumb);
 Vue.component(Pagination.name, Pagination);
 Vue.component(Popconfirm.name, Popconfirm);
+Vue.component(InputNumber.name, InputNumber);
 Vue.component(Radio.Group.name, Radio.Group);
 Vue.component(Form.create.name, Form.create);
 Vue.component(Radio.Button.name, Radio.Button);
@@ -77,6 +79,7 @@ Vue.component(Button.Group.name, Button.Group);
 Vue.component(Menu.SubMenu.name, Menu.SubMenu);
 Vue.component(Layout.Sider.name, Layout.Sider);
 Vue.component(Layout.Header.name, Layout.Header);
+Vue.component(Layout.Footer.name, Layout.Footer);
 Vue.component(Select.Option.name, Select.Option);
 Vue.component(List.Item.Meta.name, List.Item.Meta);
 Vue.component(Layout.Content.name, Layout.Content);
