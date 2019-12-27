@@ -9,11 +9,36 @@
     ]
   },
   "rules": {
-    "indent": [true, "spaces", 2],
-    "interface-name": false,
-    "no-consecutive-blank-lines": false,
-    "object-literal-sort-keys": false,
+    "curly": false,
+    "eofline": false,
+    "whitespace": false,
+    "no-console": false,
     "ordered-imports": false,
-    "quotemark": [true, "single"]
+    "object-shorthand": false,
+    "no-shadowed-variable": false,
+    "indent": [
+      true,
+      "spaces",
+      2
+    ],
+    "quotemark": [
+      true,
+      "double"
+    ],
+    "object-literal-sort-keys": false,
+    "no-consecutive-blank-lines": false,
+    "semicolon": [
+      true,
+      "always",
+      "ignore-interfaces"
+    ],
+    "comma-spacing": [
+      "error",
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "trailing-comma": false
   }
 }
