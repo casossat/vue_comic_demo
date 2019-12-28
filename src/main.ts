@@ -1,13 +1,12 @@
 import Vue from "vue";
 import axios from "axios";
 import App from "./App.vue";
-import router from "./router";
 import store from "./store";
+import router from "./router";
 import VueAxios from "vue-axios";
 import "./registerServiceWorker";
 import VueSweetalert2 from "vue-sweetalert2";
 import "sweetalert2/dist/sweetalert2.min.css";
-// import VuePageTransition from "vue-page-transition";
 
 import {
   Button,
@@ -37,7 +36,6 @@ import {
   InputNumber
 } from "ant-design-vue";
 
-// Vue.use(VuePageTransition);
 Vue.use(VueAxios, axios);
 Vue.use(VueSweetalert2);
 

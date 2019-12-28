@@ -28,6 +28,7 @@ module.exports = {
       })
     ]
   },
+
   css: {
     loaderOptions: {
       less: {
@@ -38,5 +39,5 @@ module.exports = {
         javascriptEnabled: true
       }
     }
-  }
+  },
 }
