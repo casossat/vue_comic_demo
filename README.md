@@ -11,7 +11,6 @@ Aplicación vue_comic_demo, Prueba técnica desarrollador Frontend.
  * **Google-fonts-webpack-plugin**
 
 <summary><h2> 🛠️ Configuracion del proyecto, http-server</h2></summary>
-<details>
 
   Para ejecutar la app desde el codigo fuente se deben tener instaladas las siguientes dependencias:
 
